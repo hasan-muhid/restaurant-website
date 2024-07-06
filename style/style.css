@@ -1,0 +1,280 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: "Work Sans", sans-serif;
+}
+
+#hero-banner {
+    width: 1349px;
+    height: 662px;
+    background: linear-gradient(180.00deg, rgb(16, 16, 16) -19.5%, rgba(16, 16, 16, 0) 100%), url(/assets/hero-bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+
+}
+
+#hero-banner .hero-content {
+    width: 737px;
+    height: 290px;
+
+}
+
+.hero-content .subtitle {
+    color: rgb(255, 255, 255);
+    font-family: Work Sans;
+    font-size: 23px;
+    font-weight: 500;
+    line-height: 28px;
+    letter-spacing: 0%;
+    text-align: center;
+    opacity: 0.8;
+
+
+}
+
+.hero-content .title {
+    color: rgb(255, 255, 255);
+    font-family: Work Sans;
+    font-size: 46px;
+    font-weight: 700;
+    line-height: 58px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-bottom: 15px;
+
+}
+
+.hero-content p {
+    color: rgb(255, 255, 255);
+    font-family: Work Sans;
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: 0%;
+    text-align: center;
+    opacity: 0.7;
+    margin-bottom: 15px;
+
+}
+
+.hero-content .btn>button {
+    color: rgb(255, 255, 255);
+    font-family: Work Sans;
+    font-size: 15px;
+    cursor: pointer;
+    font-weight: 500;
+    line-height: 23px;
+    letter-spacing: 0%;
+    text-align: center;
+    border-radius: 8px;
+    background: rgb(82, 195, 3);
+    border: none;
+    padding: 16px 23px;
+}
+
+div .btn  {
+    text-align: center;
+    padding: 20px 30px;
+}
+
+#blog {
+    max-width: 950px;
+    height: 600px;
+    margin: 100px auto;
+
+
+}
+.card-box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.card {
+    max-width: 305px;
+    margin-top: 30px;
+    margin-right: 30px;
+
+
+}
+
+
+.extra .subtitle {
+    color: rgb(16, 16, 16);
+    font-family: Work Sans;
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 28px;
+    letter-spacing: 0%;
+    text-align: center;
+    opacity: 0.6;
+
+}
+
+.extra .tittle {
+    color: rgb(16, 16, 16);
+    font-family: Work Sans;
+    font-size: 35px;
+    font-weight: 700;
+    line-height: 47px;
+    letter-spacing: 0%;
+    text-align: center;
+    padding-bottom: 20px;
+
+
+}
+
+.card-box .card .img {
+    width: 305px;
+}
+
+.card-box .card img {
+    width: 100%;
+    margin-bottom: 7px;
+}
+
+.card-content span {
+    color: rgb(16, 16, 16);
+    font-family: Work Sans;
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 28px;
+    letter-spacing: 0%;
+    /* text-align: center; */
+    margin-top: 20px;
+    border-radius: 8px;
+    background: rgba(82, 195, 3, 0.15);
+    padding: 8px 12px;
+    margin-bottom: 20px;
+}
+
+.card-content {
+    text-align: center;
+    margin-top: 20px;
+
+
+}
+
+.card-content .product {
+    margin-bottom: 25px;
+
+}
+
+.card-content .tittle {
+    color: rgb(16, 16, 16);
+    font-family: Work Sans;
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 14px;
+    letter-spacing: 0%;
+    text-align: center;
+
+}
+
+.card-content .text {
+    color: rgb(16, 16, 16);
+    font-family: Work Sans;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 22px;
+    letter-spacing: 0%;
+    text-align: center;
+    opacity: 0.7;
+}
+
+#blog .btn button{
+color: rgb(255, 255, 255);
+font-family: Work Sans;
+font-size: 13px;
+font-weight: 500;
+line-height: 23px;
+letter-spacing: 0%;
+text-align: center;
+border-radius: 8px;
+background: rgb(82, 195, 3);
+border: none;
+padding: 15px 33px;
+margin-top: 10px;
+cursor: pointer;
+
+}
+
+#about{
+    width: 1349px;
+    height: 550px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+    
+}
+#about .left{
+   max-width: 50%;
+}
+#about .left .img-box img{
+    width: 690px;
+    height: 485px;
+}
+#about .right {
+    width: 50%;
+}
+#about .right .text-content{
+   padding-left:80px ;
+   padding-right: 80px;
+   margin-left: px;
+   
+}
+#about .right .text-content h1{
+    color: rgb(16, 16, 16);
+font-family: Work Sans;
+font-size: 32px;
+font-weight: 700;
+line-height: 43px;
+letter-spacing: 0%;
+text-align: center;
+margin-bottom: 15px;
+
+}
+
+#about .right .text-content p{
+    color: rgb(16, 16, 16);
+font-family: Work Sans;
+font-size: 15px;
+font-weight: 500;
+line-height: 24px;
+letter-spacing: 0%;
+text-align: center;
+opacity: 0.6;
+
+}
+#about .right .text-content h4{
+    color: rgb(16, 16, 16);
+font-family: Work Sans;
+font-size: 23px;
+font-weight: 600;
+line-height: 38px;
+letter-spacing: 0%;
+text-align: center;
+opacity: 0.7;
+margin-top: 30px;
+}
+
+#about .socail-img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+
+}
+#about .socail-img img{
+    width: 35px;
+    /* border-radius: 100%; */
+    padding-top: 20px;
+}
